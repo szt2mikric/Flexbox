@@ -1,12 +1,6 @@
-let colorpicker = document.getElementById('colorpicker');
-
-
-
-  setInterval(()=>{
-      let color = colorpicker.value;
-      document.body.style.backgroundColor = color;
-  }, 200);
-
-  function changecolor(el) {
-    document.body.style.backgroundColor = el.value;
-  }
+document.getElementById("changeColorButton").addEventListener("click", function() {
+  
+  var selectedColor = document.getElementById("colorPicker").value;
+  
+  document.body.style.backgroundColor = selectedColor;
+});
