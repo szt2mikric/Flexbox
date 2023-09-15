@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+.box {
+    width: 200px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+.purple {
+    background-color: purple;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.darkblue {
+    background-color: blue;
+}
+
+.palevioletred {
+    background-color: palevioletred;
+}
+
+.plum {
+    background-color: plum;
+}
+
+.darkmagenta {
+    background-color: darkmagenta;
+}
+
+.salmon {
+    background-color: salmon;
+}
